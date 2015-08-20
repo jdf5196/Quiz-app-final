@@ -1,0 +1,135 @@
+body {
+  background: url("Images/CloudBackground.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: 'Trebuchet MS', Helvetica, sans-serif;
+}
+
+h1 {
+  font-size: 36px;
+  text-align: center;
+  margin-top: 30px;
+}
+
+#quizbox {
+  font-size: 16px;
+  margin-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 245px;
+  width: 600px;
+  background-color: rgba(153, 204, 255, .25);
+}
+
+#startQuizButton {
+  margin-top: 92px;
+  font-size: 20px;
+}
+
+#quizbox h2 {
+  text-align: center;
+  margin-top: 20px;
+}
+
+#quizbox p {
+  font-weight: bold;
+  text-align: center;
+  margin-top: 20px;
+}
+#choicebox {
+  margin-left: auto;
+  margin-right: auto;
+  height: 104px;
+  width: 110px;
+
+}
+#symbol {
+  height:100px;
+  width: 100px;
+  text-align: left;
+  margin-top:20px;
+  margin-bottom:-104px;
+}
+.sunSymbol {
+  background-image: url("Images/Sun.png");
+  background-size:cover;
+  height:100px;
+  width:100px;
+}
+
+.snowSymbol {
+  background-image: url("Images/Snowflakes.png");
+  background-size:cover;
+  height:100px;
+  width:100px;
+}
+.rainSymbol {
+  background-image: url("Images/raindrop.png");
+  background-size:cover;
+  height:100px;
+  width:100px;
+}
+.windSymbol {
+  background-image: url("Images/Tornado.png");
+  background-size:cover;
+  height:100px;
+  width:100px;
+}
+#wrongBox {
+  text-align:right;
+  height:104px;
+  width:110px;
+  margin-left:450px;
+  margin-top:-115px;
+}
+.qKeyList {
+  text-align:right;
+  list-style: none;
+}
+.qKeyRight {
+  background-image: url('Images/check.png');
+  background-size:1em;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.qKeyWrong {
+  background-image: url('Images/cross.svg');
+  background-size:1em;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.choice {
+	margin-left: 20px;
+	margin-top: 10px;
+}
+.button {
+  display: block;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #66CCFF;
+  border: solid 1px #0000CC;
+  border-radius: 5px;
+  padding: 8px 16px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+#answerBox {
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 125px;
+  width: 600px;
+  background-color: rgba(153, 204, 255, .25);
+
+}
+
+#answer {
+  font-size: 16px;
+	line-height: 1.2;
+  text-align: center;
+  margin-top: 20px;  
+}
+
+

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  	<meta charset="utf-8">
+    	<link rel="stylesheet" href="styles.css">
+    	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    	<script src="script.js"></script>
+    	<title>Extreme Weather Quiz</title>
+</head>
+<body>
+    <h1>Extreme Weather Quiz</h1>
+    <div id='quizbox'>
+    	<div id='startQuiz'>
+        	<h2>Click below to take the Quiz</h2>
+        	<input id='startQuizButton' class='button' type='submit' value='Start Quiz'>
+      	</div>
+      	<div id='questionBox'>
+        	<p id='questionNum'></p>
+        	<p id='question'></p>
+        	<div id='symbol'>
+         		<div class='sunSymbol'></div>
+        	</div>
+        	<div id='choicebox'>
+          		<div id='choices'></div>
+        	</div>
+        	<div id='wrongBox'>
+          		<ul class='qKeyList'>
+           			<li class='qKey1' id='qKey1'>Q1</li>
+            		<li class='qKey2' id='qKey2'>Q2</li>
+            		<li class='qKey3' id='qKey3'>Q3</li>
+            		<li class='qKey4' id='qKey4'>Q4</li>
+            		<li class='qKey5' id='qKey5'>Q5</li>
+          		</ul>
+        	</div>
+        	<input type='submit' id='submit' class='button'>
+      	</div>  
+    </div>
+    <div id='answerBox'>
+    	<div id='answer'>
+      	</div>  
+    </div>
+</body>
+</html>
